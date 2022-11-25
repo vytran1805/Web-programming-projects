@@ -1,0 +1,23 @@
+#OForm {color: orange;}
+
+.table2 {border: 1px solid;}
+
+.table2 th, .table2 td {
+    border: 1px solid;
+}
+
+#width200{width: 200px; }
+.rightAlign {text-align: right;}
+
+.table2 tbody>tr>:nth-child(3) {
+    border-style: double;
+    border-width: 3px;
+}
+.table2 tbody>tr>:nth-child(5){
+    border-style: double;
+    border-width: 3px;
+}
+textarea {
+    row-gap: 6;
+    columns: 25;
+}

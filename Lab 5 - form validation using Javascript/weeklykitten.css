@@ -1,0 +1,75 @@
+/*----------------------------------------------------------------
+    Name: Vy Tran
+    Date:  Nov 22, 2022
+    Section: CST8285_301
+    File name: weekly.css
+    This is the Lab5 -Form validation using HTML, CSS, Javascript. 
+------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+*{
+    font-family: 'lato', sans-serif;
+}
+body {
+    display: block;
+    margin: 30px;
+}
+h1{
+    text-align: center;
+}
+#form {
+    margin: 20px;
+}
+input[type='text'],input[type='password']{
+    width: 100%; 
+	padding: 12px;
+	border: 1px solid #cccccc; 
+	border-radius: 2px; 
+	box-sizing: border-box; 
+	margin-top: 6px; 
+	margin-bottom: 16px;
+}
+.form-text label {
+    font-weight: bold;
+    font-size: 17px;
+}
+div p {
+    position: relative;
+    font-size: 12px;
+    color: red;
+}
+/*--------------------
+Styling buttons
+--------------------*/
+button[type=submit] {
+    background-color: #ece93d;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  /* Adding hover */
+button[type=submit]:hover {
+    background-color: #dbca10;
+  }
+button[type=reset] {
+    background-color: #e70000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type=reset]:hover {
+    background-color: #c82525;
+}
+
+input[type='text']:invalid{
+    background-color: #ece93d;
+}
+
+
+

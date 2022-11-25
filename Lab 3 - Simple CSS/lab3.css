@@ -1,0 +1,108 @@
+/*
+Name: Vy Tran
+Date: Oct 12, 2022
+Section: CST8285_301
+This is the Lab3 - HTML and CSS assignment for my porfolio - Web programming work. 
+This assignment is about Implementing and styling a Webpage.
+*/
+
+/*font the webpage (2), change text color, background color (1)*/
+body {
+    background-color: #DDD78D;
+    color: #353935;
+    font-family: sans-serif;
+}
+/*Text color, background color (1), add pixel boder (3), padding (4)*/
+header,footer {
+    padding: 10px;
+    color: #93A29B;
+    background-color: #60594D;
+    border: 4px solid #353935;
+}
+
+/*style title of the header*/
+#title {
+    font-size: 30pt;
+    font-weight: bold;
+    padding-bottom: 10pt;
+}
+
+/*flexbox for navbar: center and space-evenly the nav elements (7)*/
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*flexbox items: boxes, make the edges rounded (6), remove text underline (8)*/
+.container a {
+    list-style: none;
+    background-color: #F8F0E3;
+    border: 2px solid #353935;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 0px 10px;
+    font-size: 12pt; 
+    text-decoration: none;
+    color: #353935;
+}
+
+/*hover color*/
+.container a:hover {
+    background-color: #F0EAD6;
+    color: #8B635C;
+}
+
+/*Remove underline, set color for the link (8)*/
+.container a {
+    text-decoration: none;
+    color: #353935;
+    font-size: 12pt;
+}
+
+
+/*font size (9)*/
+p {
+    font-size: 14pt;
+    margin: 10px 0px;
+    font-weight: normal;
+}
+/*Line items have the same properties as general paragraphs*/
+ol li, ul li {
+    font-size: 14pt;
+    font-weight: normal;
+    margin: 10px 0px;
+}
+
+/* unordered line elements should be bold (11)*/
+ul > li {
+    font-weight: bold;
+}
+
+/*remove bullet point of the ordered list*/
+#list-style {
+    list-style: none;
+}
+/*quotation styling*/
+blockquote {
+    background-color: #DCBF85;
+    text-align: center;
+    padding: 10px;
+    margin: 0px 20px;
+}
+
+/*Float the image, set size and margin (12)*/
+img {
+    float: right;
+    width: 25%;
+    margin: 10px;
+}
+
+
+/*author line: 20px between the link and author line (13)*/
+#author {
+    text-align: right;
+    font-style: italic;
+    font-size: 10px;
+    margin-top: 10px;
+}

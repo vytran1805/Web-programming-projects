@@ -1,0 +1,55 @@
+/*
+    Name: Vy Tran
+    Date:  Nov 11, 2022
+    Section: CST8285_301
+    File name: inspiration.css
+    This is the Lab4 - Generate a random quote using Javascript - Web programming work. 
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+h1 {
+    font-family: 'Bitter', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#quote {
+    border: 2pt solid black;
+    padding: 20pt;
+    border-radius: 10pt;
+    margin: 10pt;
+    background-color: beige;
+}
+#innerText {
+    font-size: 1.5rem;
+}
+#innerText::before {
+    content: "“";
+    opacity: 0.7;
+}
+#innerText::after {
+    content: "”";
+    opacity: 0.7;
+}
+#button-container {
+    display: flex;
+    justify-content: center;
+}
+#button {
+    border-radius: 20pt;
+    padding: 4pt 5pt;
+}
+#button:hover {
+    background-color: rgb(203, 203, 203);
+    cursor: pointer;
+}
+#author {
+    display: flex;
+    justify-content: right;
+    font-size: small;
+    font-style: italic;
+
+}
